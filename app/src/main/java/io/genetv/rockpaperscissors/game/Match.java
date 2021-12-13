@@ -8,5 +8,5 @@ public class Match {
     private Player winner;
     private Array players;
 
-    
+
 }
