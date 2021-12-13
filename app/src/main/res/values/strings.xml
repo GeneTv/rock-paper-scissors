@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Rock Paper Scissors</string>
+    <string name="app_slogan">The battle of rocks, papers and scissors</string>
+
+    <string name="home_game_search">New Game</string>
+    <string name="home_game_computer">Play vs AI</string>
 
     <string name="text_prompt_pairing">Hold your phones close together</string>
     <string name="text_info_pairing">pairing...</string>
