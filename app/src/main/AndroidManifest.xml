@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="io.genetv.rockpaperscissors">
+
+    <uses-feature android:name="android.hardware.bluetooth"></uses-feature>
+    <uses-permission android:name="android.permission.BLUETOOTH"></uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"
+        tools:ignore="ProtectedPermissions"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -10,16 +19,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RockPaperScissors">
         <activity
-            android:name=".GameActivity"
+            android:name=".activites.GameActivity"
             android:exported="false" />
         <activity
-            android:name=".GameOverActivity"
+            android:name=".activites.GameOverActivity"
             android:exported="false" />
         <activity
-            android:name=".PairingActivity"
+            android:name=".activites.PairingActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activites.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

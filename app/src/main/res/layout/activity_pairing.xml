@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PairingActivity">
+    tools:context=".activites.PairingActivity">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/text_info_pairing"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="201dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

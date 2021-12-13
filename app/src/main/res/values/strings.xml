@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Rock Paper Scissors</string>
+
+    <string name="text_prompt_pairing">Hold your phones close together</string>
+    <string name="text_info_pairing">pairing...</string>
+
+    <string name="text_move_rock">Rock</string>
+    <string name="text_move_paper">Paper</string>
+    <string name="text_move_scissors">Scissors</string>
 </resources>
