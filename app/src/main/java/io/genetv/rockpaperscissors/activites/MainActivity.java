@@ -23,20 +23,15 @@ public class MainActivity extends AppCompatActivity {
         this.btnGameSearch = findViewById(R.id.btn_game_search);
         this.btnGameComputer = findViewById(R.id.btn_game_computer);
 
-
         btnGameSearch.setOnClickListener( btn -> {
             Intent intent = new Intent(this, PairingActivity.class);
             startActivity(intent);
-
-            // Show toast notification
         });
 
         btnGameComputer.setOnClickListener( btn -> {
             Intent intent = new Intent(this, GameActivity.class);
             intent.putExtra("isComputerMatch", true);
             startActivity(intent);
-
-            // Show toast notification
         });
     }
 }

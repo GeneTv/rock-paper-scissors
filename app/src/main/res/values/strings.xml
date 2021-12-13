@@ -11,4 +11,11 @@
     <string name="text_move_rock">Rock</string>
     <string name="text_move_paper">Paper</string>
     <string name="text_move_scissors">Scissors</string>
+
+
+    <string name="btn_text_cancel">Cancel</string>
+
+
+
+    <string name="text_info_match_computer_found">Match against AI started.</string>
 </resources>
