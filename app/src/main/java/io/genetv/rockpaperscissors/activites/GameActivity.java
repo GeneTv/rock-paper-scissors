@@ -12,5 +12,10 @@ public class GameActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
+
+        boolean isComputerMatch = getIntent().getExtras().getBoolean("isComputerMatch");
+        if(isComputerMatch) {
+            System.out.println("Match vs AI");
+        }
     }
 }
