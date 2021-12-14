@@ -58,7 +58,7 @@ public class PairingActivity extends AppCompatActivity {
     public void onActivityResult(int requestCode, int resultCode, @Nullable Intent intent) {
         super.onActivityResult(requestCode, resultCode, intent);
 
-        switch (requestCode) {
+        /*switch (requestCode) {
             case REQUEST:
                 break;
 
@@ -67,6 +67,6 @@ public class PairingActivity extends AppCompatActivity {
 
             case 3483:
                 break;
-        }
+        }*/
     }
 }
