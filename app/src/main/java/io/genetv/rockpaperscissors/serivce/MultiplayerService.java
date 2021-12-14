@@ -1,2 +1,6 @@
-package io.genetv.rockpaperscissors.serivce;public class MultiplayerService {
+package io.genetv.rockpaperscissors.serivce;
+
+public class MultiplayerService {
+
+    
 }
