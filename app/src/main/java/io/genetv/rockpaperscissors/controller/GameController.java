@@ -25,15 +25,11 @@ public class GameController {
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     public void clickGameMoveButton(Button button, Context context) {
-        System.out.println("Ok");
         GameMove move = GameMove.getByButtonId(button.getId());
-        System.out.println(move.name());
-
 
         GameOutcome outcome = gameService.makeMove(move);
-
         if(outcome != null) {
-            // Transition to the game over view... Game is over since both outcomes are known
+            // Transition to the "game over" view... Game is over since both outcomes are known
             Match match = Match.getInstance();
 
             Intent intentGameOver = new Intent(context, GameOverActivity.class);
@@ -45,8 +41,4 @@ public class GameController {
         }
 
     }
-
-    /*public String getOutcomeMessage() {
-        return
-    }*/
 }

@@ -35,13 +35,13 @@
             android:layout_width="fill_parent"
             android:layout_height="86dp"
             android:layout_weight="1"
-            android:text="@string/text_move_rock" />
+            android:text="@string/btn_text_game_end" />
 
         <Button
             android:id="@+id/btn_game_rematch"
             android:layout_width="fill_parent"
             android:layout_height="86dp"
             android:layout_weight="1"
-            android:text="@string/text_move_scissor" />
+            android:text="@string/btn_text_game_rematch" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

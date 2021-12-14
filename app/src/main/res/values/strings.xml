@@ -21,4 +21,7 @@
     <string name="str_outcome_victory">won</string>
     <string name="str_outcome_defeat">lost</string>
     <string name="str_outcome_draw">tied</string>
+
+    <string name="btn_text_game_end">End game</string>
+    <string name="btn_text_game_rematch">Rematch</string>
 </resources>

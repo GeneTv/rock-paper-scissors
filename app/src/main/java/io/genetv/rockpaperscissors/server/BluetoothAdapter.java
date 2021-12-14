@@ -1,20 +1,19 @@
-package io.genetv.rockpaperscissors.controller;
+package io.genetv.rockpaperscissors.server;
 
-import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 
-public class BluetoothController {
+public class BluetoothAdapter {
 
-    private BluetoothController instance;
-    private BluetoothAdapter bluetoothAdapter;
+    private BluetoothAdapter instance;
+    private android.bluetooth.BluetoothAdapter bluetoothAdapter;
 
-    private BluetoothController() {
-        bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+    private BluetoothAdapter() {
+        bluetoothAdapter = android.bluetooth.BluetoothAdapter.getDefaultAdapter();
     }
 
-    public BluetoothController getInstance() {
+    public BluetoothAdapter getInstance() {
         if(instance == null)
-            instance = new BluetoothController();
+            instance = new BluetoothAdapter();
         return instance;
     }
 
