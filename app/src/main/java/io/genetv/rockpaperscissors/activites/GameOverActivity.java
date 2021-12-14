@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -36,7 +37,7 @@ public class GameOverActivity extends AppCompatActivity {
                 moveSelf.name(), strMoveOutcome, moveOpponent.name());
 
         textViewGameOutcome.setText(strOutcome);
-        textViewGameOutcome.setTextColor(gameOutcome.getTextColor());
+        textViewGameOutcome.setTextColor(getResources().getColor(gameOutcome.getTextColor()));
 
         btnGameEnd.setOnClickListener( btn -> {
             Intent intentGameEnd = new Intent(this, MainActivity.class);
