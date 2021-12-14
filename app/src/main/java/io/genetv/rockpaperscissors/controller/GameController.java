@@ -23,9 +23,6 @@ public class GameController {
     @RequiresApi(api = Build.VERSION_CODES.N)
     public void clickGameMoveButton(Button button) {
         GameMove move = GameMove.getByButtonId(button.getId());
-
-        System.out.println("You made the move: " + move.name());
-
         gameService.makeMove(move);
     }
 
