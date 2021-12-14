@@ -31,9 +31,9 @@ public class GameActivity extends AppCompatActivity {
         btnPlayPaper = findViewById(R.id.btn_play_paper);
         btnPlayScissor = findViewById(R.id.btn_play_scissor);
 
-        btnPlayRock.setOnClickListener(btn -> gameController.clickGameMoveButton((Button)btn));
-        btnPlayPaper.setOnClickListener(btn -> gameController.clickGameMoveButton((Button)btn));
-        btnPlayScissor.setOnClickListener(btn -> gameController.clickGameMoveButton((Button)btn));
+        btnPlayRock.setOnClickListener(btn -> gameController.clickGameMoveButton((Button)btn, this));
+        btnPlayPaper.setOnClickListener(btn -> gameController.clickGameMoveButton((Button)btn, this));
+        btnPlayScissor.setOnClickListener(btn -> gameController.clickGameMoveButton((Button)btn, this));
 
     }
 

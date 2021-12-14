@@ -1,9 +1,10 @@
 package io.genetv.rockpaperscissors.serivce;
 
 import io.genetv.rockpaperscissors.game.GameMove;
+import io.genetv.rockpaperscissors.game.GameOutcome;
 
 public interface IGameService {
 
-    public void makeMove(GameMove move);
+    public GameOutcome makeMove(GameMove move);
 
 }
