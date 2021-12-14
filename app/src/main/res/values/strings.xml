@@ -17,7 +17,7 @@
 
     <string name="text_info_match_computer_found">Match against AI started.</string>
 
-    <string name="str_outcome_text">You ({0}) {1} against {2}</string>
+    <string name="str_outcome_text">You (%1$s) %2$s against %3$s</string>
     <string name="str_outcome_victory">won</string>
     <string name="str_outcome_defeat">lost</string>
     <string name="str_outcome_draw">tied</string>

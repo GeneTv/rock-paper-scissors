@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        System.out.println("ueeee");
+
         this.btnGameSearch = findViewById(R.id.btn_game_search);
         this.btnGameComputer = findViewById(R.id.btn_game_computer);
 

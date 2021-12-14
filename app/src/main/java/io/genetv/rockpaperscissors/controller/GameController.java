@@ -37,6 +37,7 @@ public class GameController {
             Match match = Match.getInstance();
 
             Intent intentGameOver = new Intent(context, GameOverActivity.class);
+            intentGameOver.putExtra("outcome", outcome);
             intentGameOver.putExtra("moveSelf", match.getMoveSelf());
             intentGameOver.putExtra("moveOpponent", match.getMoveOpponent());
 

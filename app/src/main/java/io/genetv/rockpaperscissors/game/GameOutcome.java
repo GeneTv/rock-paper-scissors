@@ -14,4 +14,7 @@ public enum GameOutcome {
         this.stringId = stringId;
     }
 
+    public int getStringId() {
+        return stringId;
+    }
 }

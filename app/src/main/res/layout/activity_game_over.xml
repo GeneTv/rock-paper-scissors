@@ -9,8 +9,39 @@
     <TextView
         android:id="@+id/text_game_over"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="404dp"
+        android:gravity="center_horizontal"
+        android:padding="25dp"
         android:text="@string/str_outcome_text"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="129dp" />
+        android:textSize="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/btn_game_end"
+            android:layout_width="fill_parent"
+            android:layout_height="86dp"
+            android:layout_weight="1"
+            android:text="@string/text_move_rock" />
+
+        <Button
+            android:id="@+id/btn_game_rematch"
+            android:layout_width="fill_parent"
+            android:layout_height="86dp"
+            android:layout_weight="1"
+            android:text="@string/text_move_scissor" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
