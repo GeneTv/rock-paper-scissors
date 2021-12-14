@@ -36,4 +36,15 @@
             android:layout_weight="1"
             android:text="@string/text_move_scissor" />
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="130dp"
+        android:text="@string/text_game_cta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

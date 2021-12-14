@@ -41,4 +41,8 @@ public class GameController {
         }
 
     }
+
+    public void clickRematchButton(Button button, Context context) {
+        // TODO:
+    }
 }

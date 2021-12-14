@@ -24,4 +24,6 @@
 
     <string name="btn_text_game_end">End game</string>
     <string name="btn_text_game_rematch">Rematch</string>
+
+    <string name="text_game_cta">Waiting for your move...</string>
 </resources>
