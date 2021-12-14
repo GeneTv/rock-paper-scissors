@@ -6,13 +6,11 @@ import java.util.UUID;
 public class Match {
 
     private static Match instance;
-    private GameState gameState;
 
     private GameMove moveSelf;
     private GameMove moveOpponent;
 
     private Match() {
-        this.gameState = GameState.PRE_GAME;
         this.moveSelf = null;
         this.moveOpponent = null;
     }
@@ -23,20 +21,12 @@ public class Match {
         return instance;
     }
 
-    public GameState getGameState() {
-        return gameState;
-    }
-
     public GameMove getMoveOpponent() {
         return moveOpponent;
     }
 
     public GameMove getMoveSelf() {
         return moveSelf;
-    }
-
-    public void setGameState(GameState gameState) {
-        this.gameState = gameState;
     }
 
     public void setMoveOpponent(GameMove moveOpponent) {

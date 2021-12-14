@@ -14,8 +14,6 @@ import android.widget.Toast;
 import java.util.UUID;
 
 import io.genetv.rockpaperscissors.R;
-import io.genetv.rockpaperscissors.game.GameState;
-import io.genetv.rockpaperscissors.game.Match;
 
 public class PairingActivity extends AppCompatActivity {
 

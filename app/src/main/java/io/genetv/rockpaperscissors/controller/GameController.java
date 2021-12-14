@@ -26,6 +26,6 @@ public class GameController {
 
         System.out.println("You made the move: " + move.name());
 
-        //gameService.makeMove(move);
+        gameService.makeMove(move);
     }
 }

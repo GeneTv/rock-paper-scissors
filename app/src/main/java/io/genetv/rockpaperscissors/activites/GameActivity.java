@@ -25,7 +25,7 @@ public class GameActivity extends AppCompatActivity {
         setContentView(R.layout.activity_game);
 
         boolean isComputerMatch = getIntent().getExtras().getBoolean("isComputerMatch");
-        gameController = new GameController(isComputerMatch);
+        gameController = new GameController(!isComputerMatch);
 
         btnPlayRock = findViewById(R.id.btn_play_rock);
         btnPlayPaper = findViewById(R.id.btn_play_paper);
